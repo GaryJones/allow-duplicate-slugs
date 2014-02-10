@@ -1,0 +1,16 @@
+{
+	"name"       : "johnbillion/allow-duplicate-slugs",
+	"description": "WordPress plugin to allow duplicate slugs across different post types.",
+	"homepage"   : "https://github.com/johnbillion/allow-duplicate-slugs/",
+	"type"       : "wordpress-plugin",
+	"license"    : "GPL-2.0+",
+	"authors"    : [
+		{
+			"name"    : "John Blackbourn",
+			"homepage": "https://johnblackbourn.com/"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}
