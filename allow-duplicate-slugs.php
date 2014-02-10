@@ -29,7 +29,9 @@ http://core.trac.wordpress.org/ticket/20480 - fixed in 3.5
 
 */
 
-add_filter( 'wp_unique_post_slug', function( $slug, $post_id, $post_status, $post_type, $post_parent, $original_slug ) {
+add_filter( 'wp_unique_post_slug', 'allow_duplicate_slugs', 10, 6 );
+
+function allow_duplicate_slugs( $slug, $post_id, $post_status, $post_type, $post_parent, $original_slug ) {
 
         global $wpdb, $wp_rewrite;
 
@@ -74,4 +76,4 @@ add_filter( 'wp_unique_post_slug', function( $slug, $post_id, $post_status, $pos
 
 	return $slug;
 
-}, 10, 6 );
+}
