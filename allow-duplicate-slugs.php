@@ -3,28 +3,11 @@
 Plugin Name: Allow Duplicate Slugs
 Description: Allow duplicate slugs across different post types
 Version:     1.0
-Author:      Code for the People
-Author URI:  http://codeforthepeople.com/
+Author:      John Blackbourn
+Author URI:  https://johnblackbourn.com/
 License:     GPL v2 or later
 
-Copyright © 2013 Code for the People ltd
-
-                _____________
-               /      ____   \
-         _____/       \   \   \
-        /\    \        \___\   \
-       /  \    \                \
-      /   /    /          _______\
-     /   /    /          \       /
-    /   /    /            \     /
-    \   \    \ _____    ___\   /
-     \   \    /\    \  /       \
-      \   \  /  \____\/    _____\
-       \   \/        /    /    / \
-        \           /____/    /___\
-         \                        /
-          \______________________/
-
+Copyright © 2014 John Blackbourn
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
